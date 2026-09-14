@@ -6,4 +6,4 @@ set(EXTRA_COMPONENT_DIRS "${CMAKE_CURRENT_LIST_DIR}/src")
 set(COMPONENTS "src")
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(sensor_glove_blink)
+project(sensor_glove_bno055)

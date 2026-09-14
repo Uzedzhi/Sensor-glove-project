@@ -13,7 +13,7 @@ IDF := test -f "$(IDF_PATH)/export.sh" || { echo "ESP-IDF not found at $(IDF_PAT
 
 help:
 	@printf '%s\n' \
-	  'ESP32-C3 Blink (native ESP-IDF)' \
+	  'Seeed Studio XIAO ESP32-C3 + BNO055 (native ESP-IDF)' \
 	  '' \
 	  '  make sdk                         install ESP-IDF v6.1 for ESP32-C3' \
 	  '  make build                       compile firmware' \
