@@ -1,0 +1,24 @@
+menu "Blink settings"
+
+    config BLINK_GPIO
+        int "LED GPIO number"
+        range 0 21
+        default 8
+        help
+            GPIO connected to the LED. GPIO8 is a common choice on ESP32-C3
+            boards, but the exact pin depends on the board.
+
+    config BLINK_ACTIVE_LOW
+        bool "LED is active-low"
+        default n
+        help
+            Enable when the LED turns on with a logic-low output.
+
+    config BLINK_INTERVAL_MS
+        int "Toggle interval (milliseconds)"
+        range 50 60000
+        default 500
+        help
+            Time between LED state changes.
+
+endmenu

@@ -1,0 +1,4 @@
+# Project defaults. Override them with `make menuconfig` when needed.
+CONFIG_BLINK_GPIO=8
+CONFIG_BLINK_ACTIVE_LOW=n
+CONFIG_BLINK_INTERVAL_MS=500
