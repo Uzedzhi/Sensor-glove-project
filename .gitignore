@@ -1,0 +1,14 @@
+/firmware/build/
+/firmware/sdkconfig
+/firmware/sdkconfig.old
+/firmware/managed_components/
+/firmware/dependencies.lock
+/firmware/build/*
+/firmware/.cache/*
+/desktop/build/
+/desktop/.cache/
+/desktop/tests/__pycache__/
+/.vscode/*
+/.agents/*
+/*/VALIDATION.md
+/openspec/*
