@@ -1,0 +1,29 @@
+menu "BNO055 settings"
+
+    config BNO055_I2C_SDA_GPIO
+        int "I2C SDA GPIO"
+        range 0 21
+        default 6
+        help
+            XIAO ESP32-C3 D4 is GPIO6.
+
+    config BNO055_I2C_SCL_GPIO
+        int "I2C SCL GPIO"
+        range 0 21
+        default 7
+        help
+            XIAO ESP32-C3 D5 is GPIO7.
+
+    config BNO055_I2C_FREQUENCY_HZ
+        int "I2C frequency (Hz)"
+        range 10000 400000
+        default 100000
+        help
+            BNO055 can be sensitive to I2C timing. Start at 100 kHz.
+
+    config BNO055_OUTPUT_INTERVAL_MS
+        int "Serial output interval (milliseconds)"
+        range 50 60000
+        default 500
+
+endmenu
