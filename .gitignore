@@ -12,3 +12,5 @@
 /.agents/*
 /*/VALIDATION.md
 /openspec/*
+.clangd
+sdkconfig.defaults
